@@ -1,0 +1,18 @@
+db.movies.insertMany(
+    [
+        {
+            title:"Titanic",
+            year: 1990,
+            director:{
+                name:"Jame Cameron"
+            }
+        },
+        {
+            title:"Matrix Reloaded",
+            year: 1990,
+            director:{
+                name:"Jame Cameron"
+            }
+        }
+    ]
+)
